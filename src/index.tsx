@@ -25,7 +25,7 @@ import Gallery from './App';
 import './css/header_footer.css';
 import './css/styles.css';
 import './css/font.css';
-
+import { HashRouter } from "react-router-dom";
 
 
 const rootEl = document.getElementById('root');
@@ -34,7 +34,9 @@ if (rootEl) {
   root.render(
     <section>
     <React.StrictMode>
+      <HashRouter>
       <Gallery />
+      </HashRouter>
     </React.StrictMode>,
     </section>
   );
