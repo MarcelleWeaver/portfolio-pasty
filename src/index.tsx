@@ -17,10 +17,8 @@ if (rootEl) {
     <p>babababa</p>
     
     <React.StrictMode>
-      <HashRouter>
       {/* blank fix 3 */}
       <App />
-      </HashRouter>
     </React.StrictMode>,
     </section>
   );
