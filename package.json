@@ -2,7 +2,6 @@
   "name": "marcelleweaver.github.io",
   "version": "1.0.0",
   "private": true,
-  "homepage": ".",
   "type": "module",
   "scripts": {
     "build": "rsbuild build",
