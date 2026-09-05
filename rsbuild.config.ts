@@ -17,7 +17,6 @@ export default defineConfig({
   
   html: {
     title: 'Marcelle Weaver',
-    favicon: "./src/assets/favicon.png"
   },
 
 
