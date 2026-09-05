@@ -21,7 +21,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Gallery from './App';
+import App from './App';
 import './css/header_footer.css';
 import './css/styles.css';
 import './css/font.css';
@@ -35,7 +35,8 @@ if (rootEl) {
     <section>
     <React.StrictMode>
       <HashRouter>
-      <Gallery />
+      {/* blank fix 2 */}
+      <App />
       </HashRouter>
     </React.StrictMode>,
     </section>
