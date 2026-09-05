@@ -9,6 +9,7 @@ import { HashRouter } from "react-router-dom";
 function App() {
     return (
         <div className="App">
+            <p>wawawawa</p>
             <HashRouter>
                 <Routes>
                     <Route  path="/" element={<Art />} />

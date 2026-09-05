@@ -33,6 +33,7 @@ if (rootEl) {
   const root = ReactDOM.createRoot(rootEl);
   root.render(
     <section>
+    <p>babababa</p>
     <React.StrictMode>
       <HashRouter>
       {/* blank fix 2 */}
