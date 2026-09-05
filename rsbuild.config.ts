@@ -14,13 +14,10 @@ export default defineConfig({
     // For example, "/my-project/"
     assetPrefix: '/marcelleweaver.github.io/',
   },
-<<<<<<< HEAD
-=======
   
   html: {
     title: 'Marcelle Weaver',
   },
 
 
->>>>>>> parent of 757b9a8 (Revert "bug")
 });
