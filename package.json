@@ -1,7 +1,7 @@
 {
   "name": "learnReact4",
   "version": "1.0.0",
-  "homepage": "https://MarcelleWeaver.github.io/",
+  "homepage": ".",
   "private": true,
   "type": "module",
   "scripts": {
