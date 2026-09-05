@@ -34,7 +34,8 @@ if (rootEl) {
   root.render(
     <section>
     <React.StrictMode>
-      <Gallery />
+            <Gallery />
+
     </React.StrictMode>,
     </section>
   );
