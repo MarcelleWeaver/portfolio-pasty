@@ -18,9 +18,17 @@ import name_stack from "./assets/name_stack.png";
 
 import name_full from "./assets/name_full.png";
 
+import dropdown from "./assets/dropdown.png";
 
 import exit from "./assets/exit.png";
 
+import discord from "./assets/icons8-discord-64_background.png"
+
+import email from "./assets/icons8-email-48_background.png"
+
+import insta from "./assets/icons8-instagram-48_background.png"
+
+import smile from "./assets/smile_light.png"
 
 
 
