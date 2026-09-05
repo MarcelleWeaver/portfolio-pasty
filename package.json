@@ -1,23 +1,14 @@
 {
-  "name": "learnReact4",
+  "name": "marcelleweaver.github.io",
   "version": "1.0.0",
-  "homepage": ".",
   "private": true,
   "type": "module",
   "scripts": {
-    
     "build": "rsbuild build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "check": "biome check --write",
     "dev": "rsbuild",
-    "format": "prettier --write .",
-    "lint": "eslint .",
     "preview": "rsbuild preview",
     "test": "rstest",
-    "test:watch": "rstest --watch",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "test:watch": "rstest --watch"
   },
   "dependencies": {
     "react": "^19.2.8",
@@ -27,34 +18,17 @@
     "yet-another-react-lightbox": "^3.32.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.8",
-    "@eslint/js": "^10.0.1",
-    "@rsbuild/core": "^2.2.1",
+    "@rsbuild/core": "^2.2.3",
     "@rsbuild/plugin-react": "^2.1.0",
-    "@rsbuild/plugin-tailwindcss": "^2.0.3",
-    "@rslint/core": "^0.8.0",
-    "@rstest/adapter-rsbuild": "^0.11.9",
-    "@rstest/core": "^0.11.9",
-    "@storybook/addon-docs": "^10.5.10",
+    "@rstest/adapter-rsbuild": "^0.11.12",
+    "@rstest/core": "^0.11.12",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^7.0.1",
-    "@testing-library/react": "^16.3.2",
-    "@types/node": "^24.13.3",
+    "@testing-library/react": "^16.3.3",
+    "@types/node": "^26.4.1",
     "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.4",
-    "babel-plugin-react-compiler": "^1.0.0",
-    "eslint": "^10.8.1",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-refresh": "^0.5.4",
-    "eslint-plugin-storybook": "^10.5.10",
-    "gh-pages": "^6.3.0",
-    "globals": "^17.11.0",
-    "happy-dom": "^20.11.6",
-    "prettier": "^3.9.6",
-    "storybook": "^10.5.10",
-    "storybook-react-rsbuild": "latest",
-    "tailwindcss": "^4.3.3",
-    "typescript": "^6.0.3",
-    "typescript-eslint": "^8.67.0"
+    "@types/react-dom": "^19.2.7",
+    "happy-dom": "^20.14.0",
+    "typescript": "^7.0.2"
   }
 }
