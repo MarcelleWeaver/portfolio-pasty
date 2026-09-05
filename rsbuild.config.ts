@@ -14,11 +14,4 @@ export default defineConfig({
     // For example, "/my-project/"
     assetPrefix: '/marcelleweaver.github.io/',
   },
-  
-  html: {
-    title: 'Marcelle Weaver',
-    favicon: "./src/assets/favicon.png"
-  },
-
-
 });
