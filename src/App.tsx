@@ -7,6 +7,7 @@ import { HashRouter } from "react-router-dom";
 
 
 function App() {
+    console.log("loaded root")
     return (
         <div className="App">
             <p>wawawawa</p>
